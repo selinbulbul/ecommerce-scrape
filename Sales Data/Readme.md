@@ -17,7 +17,7 @@ KPI : 'Revenue by product category'
 
 To modify and include the missing informations in sales table, you have to use SQL Joins and ensure the number of record counts after each operation.
 
-To SUM UP, you should recieve the below 7 datasets:
+To SUM UP, the below 7 datasets:
 
     sales.csv
     dslr.csv
@@ -30,6 +30,10 @@ To SUM UP, you should recieve the below 7 datasets:
 sales. csv : The sales data have below infomations:
 
 InvoiceNo: A 8-digit integral number uniquely assigned to each transaction. If this code starts with letter 'C', it indicates a cancellation.
+
+InvoiceDate: Invoice Time including hours
+
+ASIN: Amazon Standard Identification Number. Unique product identifiers.
 
 StockCode: A 5-digit integral number uniquely assigned to each distinct product.
 
@@ -44,6 +48,8 @@ UnitPrice: Product price per unit in USD.
 CustomerID: a 5-digit integral number uniquely assigned to each customer.
 
 Country: the name of the country where each customer resides.
+
+Total Sale: Revenue per Invoice
 
 QUESTIONS: 
 
