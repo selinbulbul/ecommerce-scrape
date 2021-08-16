@@ -31,25 +31,31 @@ sales. csv : The sales data have below infomations:
 
 InvoiceNo: A 8-digit integral number uniquely assigned to each transaction. If this code starts with letter 'C', it indicates a cancellation.
 
-InvoiceDate: Invoice Time including hours
-
 ASIN: Amazon Standard Identification Number. Unique product identifiers.
 
 StockCode: A 5-digit integral number uniquely assigned to each distinct product.
 
-Description: Product (item) name as mentioned on Amazon website.
+Title: Product (item) name as mentioned on Amazon website.
 
 Quantity: The quantities of each product (item) per transaction.
 
 InvoiceDate: the day and time when each transaction was generated.
 
-UnitPrice: Product price per unit in USD.
+invoice_date : the day when each transaction was generated.
+
+invoice_time: the time when each transaction was generated.
+
+product_type: Product category
+
+Price: Product price per unit in USD.
 
 CustomerID: a 5-digit integral number uniquely assigned to each customer.
 
 Country: the name of the country where each customer resides.
 
-Total Sale: Revenue per Invoice
+total_sale: Revenue per Invoice
+
+URL: The adress of the products on the Amazon
 
 QUESTIONS: 
 
